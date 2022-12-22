@@ -1,0 +1,220 @@
+/* css design  */
+/* style for body */
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #78f2b7;
+}
+/* style for single task div container */
+
+.singleTask{
+    border: 1px solid rgb(14, 13, 19);
+    width: 50%;
+    height: 90px;
+    color: white;
+    display: flex;
+    align-items: baseline;
+    /* justify-content: space-evenly; */
+    position: relative;
+    left: 25%;
+}
+/* style for del check */
+.delechack{
+    margin: 15px;
+
+}
+/* style for category section */
+
+.catesec{
+    border: 1.5px solid black;
+    background-color: chartreuse;
+}
+
+/* style for TODO heading */
+
+.todoheading{
+    color:#4071df;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/* style for form */
+
+.form_class{
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 25%;
+}
+/* style for description area */
+
+.desc_Class input{
+    height: 50px;
+    width: 100%;
+    margin: 15px;
+    text-align: center;
+    transition: transform 0.3s;
+    border-radius: 82px;
+    outline: none;
+}
+/* implemented some hover in description section */
+.desc_Class input:hover{
+    /* transform: scale(1.1); */
+    box-shadow: 0px 0px 5px 2px white ;
+    background-color: rgb(252, 250, 141);
+}
+
+/* design for select and option START */
+/* style for select and options input input area */
+
+.select_and_input{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+
+.select_and_input select{
+    height: 45px;
+    width: 40%;
+    transition: transform 0.3s;
+    text-align: center;
+    margin-right: 50px;
+    border-radius: 15%;
+    box-shadow: 0px 0px 5px 2px rgb(49, 43, 43) ;
+    
+}
+.select_and_input input{
+    height: 45px;
+    width: 40%;
+    text-align: center;
+    transition: transform 0.3s;
+    box-shadow: 0px 0px 5px 2px rgb(49, 43, 43) ;
+   
+    
+}
+.select_and_input select:hover{
+    box-shadow: 0px 0px 5px 2px white ;
+    background-color:rgb(252, 250, 141);
+}
+.select_and_input input:hover{
+    box-shadow: 0px 0px 5px 2px white ;
+    background-color:rgb(252, 250, 141);
+}
+/* design for select and option END */
+
+/* design for dates value */
+.datesValues{
+    transition: transform 0.3s;
+    border-radius: 15%;
+    width: 400px;
+
+}
+
+.datesValues:hover{
+    box-shadow: 0px 0px 5px 2px white ;
+    background-color:rgb(252, 250, 141);
+}
+/* design for button */
+.buttonDesign{
+    height: 50px;
+    width: 120px;
+    margin-inline: 30px;
+    color: white;
+    transition: transform 0.3s;
+    border-radius: 15%;
+}
+.buttonDesign:hover{
+    box-shadow: 0px 0px 5px 2px white ; 
+    transform:scale(1.1);
+}
+.colorRed{
+    background-color: red;
+    
+}
+
+.colorGrey{
+    background-color: rgb(128, 128, 128);
+}
+.commonClass{
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px;
+      
+    color: white;
+    transition: transform 0.3s;
+}
+.commonClass:hover{
+    box-shadow: 0px 0px 5px 2px rgb(14, 6, 6) ; 
+    transform:scale(1.2);
+}
+/* design for edit sction */
+.editClass{
+        transition: transform 0.3s;
+        position: absolute;
+        left: 80%;
+        margin: 20px;
+       
+}
+.editClass:hover{
+    box-shadow: 0px 0px 5px 2px rgb(14, 6, 6) ; 
+    transform:scale(1.2);
+}
+
+.editClass a{
+text-decoration: none;
+color: white;
+border: 1px solid  rgb(14, 12, 12);
+padding: 4px;
+background-color: rgb(248, 153, 10);
+border-radius: 30%;
+}
+/* for placing placeholder in the center  */
+input[type="textarea"]::placeholder { 
+                  
+    /* Firefox, Chrome, Opera */
+    text-align: center;
+}
+/* design for EDIT button*/
+.edit-button{
+    margin-top: 10px;
+    height: 30px;
+    width: 400px;
+    background-color: rgb(250, 167, 13);
+    color: white;
+}
+
+input.delechack{
+    width: 17px;
+    height: 17px;
+}
+
+/* Design for different category */
+.work{
+    background-color:rgb(14, 218, 233);
+        
+}
+.Personal{
+    background-color: rgb(79, 90, 243);
+
+}
+.Claeaning{
+    background-color: rgb(228, 231, 12);
+}
+.Otheres{
+    background-color: rgb(202, 20, 163);
+}
+.name_and_dueDate{
+    height: auto;
+    width: 200px;
+}
+.dueDate{
+    
+    width: fit-content;
+}
+.color-white{
+    color: rgb(207, 19, 245);
+}
